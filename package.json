@@ -1,0 +1,21 @@
+{
+  "name": "@fireanon/i-hear-you",
+  "version": "1.0.0",
+  "description": "Bundled Supertonic TTS engine for pi talk mode — self-hosts a local Supertonic server and narrates marked replies, scoped to M1 and F1 voices only.",
+  "keywords": ["pi-package", "pi-extension", "tts", "supertonic"],
+  "license": "MIT",
+  "author": "FireAnon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fireanon/pi-supertonic.git"
+  },
+  "pi": {
+    "extensions": ["extension/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
